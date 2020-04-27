@@ -1,5 +1,4 @@
 @startuml
-node app
-database db
-app - db
+(*) --> "A"
+"A" --> (*)
 @enduml
