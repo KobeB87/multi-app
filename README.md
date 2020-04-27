@@ -4,7 +4,7 @@
 
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/).
-```mermaid
+{% mermaid %}
 graph LR
     A-->B
-```
+{% endmermaid %}
