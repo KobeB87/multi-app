@@ -11,8 +11,14 @@ graph TD;
     B-->D;
     C-->D;
 ```
-[plantuml, format="png", id="myDiagram", width="200px"]
-----
-Bob->Alice : hello
-Alice -> Bob : hi
-----
+```mermaid
+stateDiagram
+	[*] --> Still
+	Still --> [*]
+
+	Still --> Moving
+	Moving --> Still
+	Moving --> Crash
+	Crash --> [*]
+
+```
