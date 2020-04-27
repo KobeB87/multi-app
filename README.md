@@ -6,8 +6,8 @@
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/).
 ```mermaid
 graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
