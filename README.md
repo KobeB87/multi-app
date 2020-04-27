@@ -11,3 +11,19 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+# Markdown test
+```julia; results="raw"
+using Plots, Markdown
+dirs = ["a", "b"]
+
+mimes = Dict(
+    "tex" => "text/latex",
+    "html" => "text/html"
+)
+mime = mimes[Base.Multimedia.displays[end].formatdict[:extension]]
+for dir_name in dirs
+    show(stdout, mime, Markdown.parse("## $dir_name title"))
+    show(stdout, mime, plot(rand(30), title=dir_name))
+end
+```
