@@ -1,4 +1,7 @@
-<pre><code class="language-plant-uml#some-hash">@startuml
-Bob -&gt; Alice : hello
+```plant-uml
+@startuml
+
+Bob -> Alice : hello
+
 @enduml
-</code></pre>
+```
