@@ -1,4 +1,4 @@
->>> yuml style=nofunky scale=120 format=svg
+>>>
 @startuml
 
 Bob -> Alice : hello
