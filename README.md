@@ -4,7 +4,7 @@
 
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/).
-```mermaid
+```
 sequenceDiagram
   Support ->> Welcome partenaires : sélectionner la formalité
   Welcome partenaires -->>Nash support : redirection vers nash support
