@@ -4,7 +4,7 @@
 
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/).
-```
+``` mermaid
 sequenceDiagram
     Alice ->> Bob: Hello Bob, how are you?
     Bob-->>John: How about you John?
