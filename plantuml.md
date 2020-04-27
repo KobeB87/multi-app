@@ -1,8 +1,5 @@
 
 ```mermaid
-@startuml
-
+activityDiagram
 Bob -> Alice : hello
-
-@enduml
 ```
