@@ -11,3 +11,20 @@ graph TD;
     B-->D;
     C-->D;
 ```
+---
+title: "`readthedown` template example"
+date: "`r Sys.Date()`"
+author: 
+output: html_document
+---
+
+
+# Code and tables
+
+```{r fig.cap="This is a caption"}
+for( idx in seq(4) ) {
+  cat( paste('## title no.', idx, '\n' ) ) 
+  plot(rnorm(100))
+  cat('\n\n')
+  }
+```
