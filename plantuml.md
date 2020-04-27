@@ -1,5 +1,6 @@
 
 ```mermaid
-activityDiagram
-Bob -> Alice : hello
+stateDiagram
+    [*] --> s1
+    s1 --> [*]
 ```
