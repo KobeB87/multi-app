@@ -11,8 +11,8 @@ graph TD;
     B-->D;
     C-->D;
 ```
-
-```plantuml
-Bob -> Alice : hello
+[plantuml, format="png", id="myDiagram", width="200px"]
+----
+Bob->Alice : hello
 Alice -> Bob : hi
-```
+----
