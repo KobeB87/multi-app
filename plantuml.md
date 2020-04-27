@@ -1,4 +1,4 @@
-```plant-uml
+```plantuml
 @startuml
 
 Bob -> Alice : hello
