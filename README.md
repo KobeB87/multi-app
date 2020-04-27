@@ -11,3 +11,8 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+```plantuml
+Bob -> Alice : hello
+Alice -> Bob : hi
+```
